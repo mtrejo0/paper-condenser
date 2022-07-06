@@ -70,8 +70,8 @@ def get_last():
                 group = [sentences[-1]]
                 condensed.append(group)
     return condensed
-condensed = []
 
+condensed = []
 if mode == "1":
     condensed = get_all()
 if mode == "2":
